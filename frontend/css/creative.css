@@ -185,10 +185,12 @@ aside {
 }
 
 #video-bg-elem{
-    position: relative;
+    position: absolute;
+    right: 0;
+    bottom: 0;
     min-width: 100%;
     max-width: 100%;
-
+    object-fit: cover;
 }
 
 header {
